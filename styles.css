@@ -1,1 +1,127 @@
 /* Write your CSS here! */
+#mainHeading {
+    color: red;
+    text-align: center;
+    padding: 28%;
+}
+
+body {
+    display: block;
+    margin: 8px;
+}
+h2.margin {
+    margin-top: 10px;
+}
+#divbackgroundTrip {
+    background-color: rgb(131, 173, 236);
+    margin-top: 0px;
+    overflow: hidden;
+}
+
+#centerText{
+    text-align: center;
+}
+
+#ulTrip{
+    display:flex;
+    justify-content: center;
+    margin-top: 20px;
+  
+  }
+#ulliTrip{
+    display: list-item;
+    background: black;
+    padding: 5px 10px;
+    color:white;
+    margin: 0 25px;
+  }
+
+#divcontentTrip {
+    margin-top: 50px;
+    margin-left: 20px;
+    
+}
+
+
+
+#divbackgroundProductivity {
+    background-color: rgb(217, 218, 177);
+    margin-top: 0px;
+    overflow: hidden;
+}
+
+#divcontentProductivity {
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-bottom: -25px;
+    font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+
+img {
+    width: 628px;
+    height: 600px;
+}
+
+#imgpetroglyphs {
+    width: 769px;
+    height: 567px;
+}
+video {
+    
+    width: 75%;
+    top: 0;
+    height: auto;
+    margin-right: px;
+}
+
+
+#narratorDiv {
+    background-image: url("images/CSS images/thinking.jpeg");
+    text-align: center;
+    font-weight: 600px;
+    font-size:258%;
+    padding-top: 90px;
+    padding-bottom: 51px;
+ 
+}
+
+#narratorDivText {
+    margin-top: -50px;
+}
+
+#testP {
+    color: green;
+}
+
+p.funParagraph {
+    color: green;
+}
+
+section.defaultBackground {
+    background-color: gray;
+    margin: 10%;
+    margin-top: 1%;
+}
+
+footer {
+    font-size: 200%;
+    text-align: center;
+    background-color: rgb(70, 13, 124);
+    color: greenyellow;
+    padding: 5%;
+    z-index: 1;
+    position: relative;
+}
+
+#bottomSectionShortener {
+    margin-bottom: -1.75%;
+    z-index: -1;
+    position:relative;
+}
+
+section.specialBackground {
+    background-color: gray;
+    margin: 10%;
+    margin-top: 1%;
+    margin-bottom: -22%;
+}
